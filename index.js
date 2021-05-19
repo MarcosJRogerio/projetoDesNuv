@@ -1,9 +1,9 @@
-const express = require("express"); //importa o mÃ³dulo express neste arquivo
+const express = require("express"); //importa o modulo express neste arquivo
 const app = express(); //iniciando o express
 
 //criando a rota inicial
 app.get("/", function(req,res){
-    res.send("<h1>Foi dificil, mas essa porcaria deu certo kkkkkk!</h1>");
+    res.send("<h1>vdc, eu creio muito kkkkkk!</h1>");
 })
 
 //rota do cadastro de produtos
